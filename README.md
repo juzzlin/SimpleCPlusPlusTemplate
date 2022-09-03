@@ -9,8 +9,12 @@ Just clone the repository and modify the CMake project files and application cod
 * C++17
 * CMake
 * ClangFormat (`.clang-format` configuration file)
+* Code
+  * main.cpp
+  * application.hpp / application.cpp
+  * Simple argument parsing with a placeholder help
 
-## Build
+## Build (Linux)
 
 ```
 $ mkdir build
