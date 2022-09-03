@@ -1,0 +1,9 @@
+set(SRC
+    main.cpp
+    application.cpp
+)
+
+string(TOLOWER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_LC)
+set(TARGET_NAME ${CMAKE_PROJECT_NAME_LC})
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+add_executable(${TARGET_NAME} ${SRC})
